@@ -1,0 +1,137 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+	font-size: 12px;
+	font-family: Arial;
+	background-color: lightgray;
+}
+
+strong {
+	font-size: larger;
+	color: maroon;
+}
+
+em {
+	font-size: smaller;
+	color: blue;
+}
+
+table td.picture {
+	border-width: 8px;
+	border-color: red;
+}
+
+ul li {
+    list-style-type:lower-roman;
+}
+
+ol li {
+	list-style-type:upper-alpha;
+}
+
+#aboutme {
+	line-height: 150%;
+}
+
+#majorandclass {
+	line-height: 200%;
+}
+
+#myFavoriteFont{
+    font-size: xx-large;
+    font-weight: bold;
+    color:maroon;
+    text-align: center;
+}
+
+h1 {
+    text-shadow: 4px 4px;
+    text-decoration: underline overline;
+    padding-top:10px;
+    text-shadow:-2px -2px 4px orange;
+    text-align: center;
+    text-transform:uppercase;
+}
+
+footer { 
+    background-color: maroon; 
+    font-size: weight;
+    color:black;
+    text-align: center;
+}
+
+#underline {
+	 text-decoration: underline;
+}
+
+a:link {
+    color:blue
+}
+
+a:visited {
+    color:maroon
+}
+
+a:hover {
+    color:red
+}
+
+a:active {
+	color: yellow
+}
+
+ul a {
+    text-decoration:none;
+    text-decoration:overline;
+    text-decoration:line-through;
+    text-decoration:underline;
+}
+
+
+img {
+    border-width: 8px;
+    border-color: red;
+}
+
+#page {
+    max-width:960px;
+    height:1000px;
+}
+
+.mainHead  nav{
+	background-color: #797979;
+	height: 40px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+}
+
+.mainHead nav ul {
+	list-style:none;
+	border: 1px;
+	margin: 0 auto;
+}
+
+.mainHead nav ul li {
+	float:center;
+	display: inline;
+	border: 1px;
+}
+
+.mainHead nav a:link, .mainHead nav a:visited {
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 40px;
+	height:20px;
+	border: 1px;
+}
+
+.mainHead nav .active a:link, 
+.mainHead nav .active a:visited ,
+.mainHead nav a:hover, 
+.mainHead nav a:active {
+	background-color: #04BAE3;
+	text-shadow:none;
+}
