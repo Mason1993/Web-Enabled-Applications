@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Ex06_Hotel_MasterPage.master.cs" Inherits="_2015Fall420_Excercises_Ex6_Ex06_Hotel_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+    <link href="Ex06_hotel.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="page">
+        <div id="header"> </div>
+        <div id="nav"> 
+       <ul>
+            <li><img class="img"  src="hotel01.jpg" width="350" height="238" /></li>
+            <li><img class="img"  src="hotel02.jpg" width="350" height="262" /></li>
+            <li><img class="img"  src="hotel03.jpg" width="350" height="234" /></li>
+            <li><img class="img"  src="hotel04.jpg" width="350" height="262" /></li>
+        </ul>
+        </div>
+        <div id="aside"> 
+            <ul>
+            <li><a href="../Ex6/Ex06_Hotel_Home.aspx">Home</a></li>
+            <li><a href="../Ex6/Ex06_Hotel_atAGlance.aspx">At a glance</a></li>
+            <li><a href="http://www.cnbc.com/markets/">Room</a></li>
+            <li><a href="http://www.cnbc.com/markets/">Dining</a></li>
+            </ul>
+        </div>
+        <div id="section"> 
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </div>
+    </div>
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿body
+{
+    background-color: aquamarine;
+}
+
+#aside ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+    padding-left: 15px;
+    border: 10px;
+    border-color: red;
+    display: block;  /*the difference between inline-block and block is that 
+                            inline block will display all items in a single line while
+                            block will display in multiple lines*/
+}
+
+#aside li
+{
+    margin-bottom: 25px;
+    display: inline-block;
+    border: 1px;
+
+
+}
+#aside a
+{
+    font-size: 18px;
+    line-height: 22px;
+    font-family: sans-serif, Arial, 'Times New Roman';
+    background: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 15px;
+    color: #ff8710;
+    width: 100px;
+    border: 1px;
+    text-align: center;
+}
+
+    #aside a:hover
+    {
+        background-color: #ffc686;
+    }

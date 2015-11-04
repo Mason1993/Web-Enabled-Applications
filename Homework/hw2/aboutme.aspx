@@ -1,3 +1,5 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="aboutme.aspx.cs" Inherits="_2015Fall420_Homework_hw2_Default" %>
+
 <!DOCTYPE html>
 <html lang='en'>
 <head>
@@ -15,7 +17,7 @@
 	<div id="page">
 <section>
 <h1><font face="verdana">Mason Student Information Sheet</font></h1>
-<table style="float:center" border="1">
+<table style="text-align:center"; border="1">
   <tr>
     <th>Name:</th>
     <td>Muqing Zhou</td>
