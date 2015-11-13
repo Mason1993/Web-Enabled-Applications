@@ -1,0 +1,97 @@
+﻿<%@ master language="vb" codefile="homeworkmasterpage.master.vb" inherits="_2015fall420_homework_hw3_homeworkmasterpage" %>
+
+<!doctype html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="head1" runat="server">
+    <title></title>
+
+    <link href="homeworkstylesheet.css" rel="stylesheet" />
+    <asp:contentplaceholder id="head" runat="server">
+    </asp:contentplaceholder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="page">
+        <div id="header"> 
+        <center>
+        <table>
+           <tr>
+              <td><h1>Muqing (Mason) Zhou</h1></td>
+              <td rowspan="4"><img src="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/images/profile.jpg" alt="profile image" style="width:168px;height:168px;"></td>
+          </tr>
+          
+          <tr>
+             <td>2nd year graduate student at texas a&m university</td>
+          </tr>
+         <tr>
+             <td>seeking a full time software development job</td>
+         </tr>
+        <tr>
+            <td>
+            <center>
+            <a href="mailto:zhoumuqing@tamu.edu"><img src="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/images/icon/mail.png" width="40pt" /></a>
+            <a href="https://www.facebook.com/muqing.zhou.5"><img src="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/images/icon/facebook.png" width="40pt" /></a>
+            <a href="https://www.linkedin.com/in/zhoumuqing"><img src="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/images/icon/linkedin.png" width="40pt" /></a>
+            </center>
+            </td>
+       </tr>
+       </table>
+       </center>
+        </div>
+
+       <div id="nav">
+                <ul>
+                    <center>
+                    <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/hw3_home.aspx">HOME</a></li>
+                    <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw1/aboutme.htm">ABOUT ME</a></li>
+                    <li><a href="#">EXCERCISES</a>
+                        <ul>
+                           <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/Excercises/Ex1/Ex1.aspx">EX1</a></li>
+                           <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/Excercises/Ex2/Ex02.aspx">EX2</a></li>
+                           <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/Excercises/Ex3/Ex03_linkDesign.aspx">EX3</a></li>
+                           <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/Excercises/Ex4/Ex04_CNBC_Nav.aspx">EX4</a></li>
+                           <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/Excercises/Ex5/Ex05_hotel.aspx">EX5</a></li>
+                           <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/Excercises/Ex6/Ex06_Hotel_Home.aspx">EX6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">PROJECT</a></li>
+                    <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/currencyconvetor/convetor.aspx">CURRENCY</a></li>
+                    </center>
+                </ul>  
+        </div>
+
+
+
+        <div id="aside"> 
+            <ul>
+            <center>
+
+            <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/homework/hw1.aspx">HOMEWORK 1</a></li>
+            <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/homework/hw2.aspx">HOMEWORK 2</a></li>
+            <li><a href="http://infodev.tamu.edu/zh1645/2015fall420/homework/hw3/homework/hw3.aspx">HOMEWORK 3</a></li>
+            </center>
+            </ul>
+        </div>
+
+        <div id="section"> 
+        <asp:contentplaceholder id="contentplaceholder1" runat="server">
+        
+        </asp:contentplaceholder>
+        </div>
+
+        <div id="footer">
+                       <ul>
+                           <li><a href="http://www.tamu.edu/">TAMU</a></li>
+                           <li><a href="http://mays.tamu.edu/">Mays School</a></li>
+                           <li><a href="http://mays.tamu.edu/department-of-information-and-operations-management/">INFO Dept</a></li>
+                           <li><a href="http://ecampus.tamu.edu/">eCampus</a></li>
+                        </ul>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>
